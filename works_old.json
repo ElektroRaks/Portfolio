@@ -2,11 +2,8 @@
     {
        "id": "old1",
        "old_Category": "Wordpress",
-<<<<<<< HEAD
        "old_image": "img/orientfreight.jpg",
-=======
        "old_image": "img/rowell.jpg",
->>>>>>> 5d6ebf10618267e75e1af7afd18e35f1ab0d5a57
        "old_title": "Orient Freight",
        "old_description": "ORIENT FREIGHT BALIKBAYAN BOX SEA CARGO is a dependable company ",
        "old_project_involve": "<ul><li>Create Mockup webdesign</li> <li>Web Development</li>  <li>Frontend integration</li> </ul>",
