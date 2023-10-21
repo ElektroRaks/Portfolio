@@ -2,7 +2,7 @@
    {
       "id": 1,
       "Category": "Shopify",
-      "image": "img/work/Ai generated.jpg",
+      "image": "img/work/Ai_generated.png",
       "title": "NamiLeather online store",
       "description": "Online store for selling bag leather and accesories ",
       "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
@@ -11,7 +11,7 @@
    {
      "id": 2,
      "Category": "wordpress",
-     "image": "img/work/Ai generated.jpg",
+     "image": "img/work/Ai_generated.png",
      "title": "ITPI",
      "description": "Internation Travel Port inc.",
      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
@@ -20,7 +20,7 @@
   {
      "id": 3,
      "Category": "wordpress",
-     "image": "img/work/Ai generated.jpg",
+     "image": "img/work/Ai_generated.png",
      "title": "Meteor",
      "description": "Internation Travel Port inc.",
      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
