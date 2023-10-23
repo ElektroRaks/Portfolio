@@ -3,14 +3,13 @@
        "id": "old1",
        "old_Category": "Wordpress",
        "old_image": "img/orientfreight.jpg",
-       "old_image": "img/rowell.jpg",
        "old_title": "Orient Freight",
        "old_description": "ORIENT FREIGHT BALIKBAYAN BOX SEA CARGO is a dependable company ",
        "old_project_involve": "<ul><li>Create Mockup webdesign</li> <li>Web Development</li>  <li>Frontend integration</li> </ul>",
        "old_project_url":"https://orientfreight.com.au/"
     },
     {
-      "old_id": "old2",
+      "id": "old2",
       "old_Category": "wordpress",
       "old_image": "img/BAA.jpg",
       "old_title": "Brand Activatio Agency",
@@ -19,7 +18,7 @@
       "old_project_url":"#"
    },
    {
-      "old_id": "old3",
+      "id": "old3",
       "old_Category": "wordpress",
       "old_image": "img/Fidarzi.jpg",
       "old_title": "Fidarzi",
