@@ -47,6 +47,8 @@ $(document)
         current_image = $sel.data('image-id');
         $('#image-gallery-title')
           .text($sel.data('title'));
+        $('#image-gallery-subheading')
+          .text($sel.data('subheading'));
         $('#image-gallery-description')
           .text($sel.data('desc'));
         $('#image-gallery-image')

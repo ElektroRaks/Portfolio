@@ -11,7 +11,7 @@ const displayData = async () => {
   const payload = await getData();
 
   let datadisplay = payload.map((Object) => {
-     const {id, Category, image, title, description, project_involve, project_url } = Object;
+     const {id, Category, image, title, subheading, description, project_involve, project_url } = Object;
 
      return `
 
@@ -24,7 +24,7 @@ const displayData = async () => {
                 <div class="work-title">
                   <div class="subheading text-gold"> ${title} </div>
                 </div>
-                <small>${description}</small>
+                <small>${subheading}</small>
             </div>
           </div>
           <!-- Modal -->
@@ -84,7 +84,7 @@ const displayOldData = async () => {
   const oldpayload = await getOldData();
 
   let dataOlddisplay = oldpayload.map((Object) => {
-     const {id, old_Category, old_image, old_title, old_description, old_project_involve, old_project_url } = Object;
+     const {id, old_Category, old_image, old_title, old_subheading, old_description, old_project_involve, old_project_url } = Object;
 
      return `
 
@@ -97,7 +97,7 @@ const displayOldData = async () => {
                 <div class="work-title">
                   <div class="subheading text-gold"> ${old_title} </div>
                 </div>
-                <small>${old_description}</small>
+                <small>${old_subheading}</small>
             </div>
           </div>
           <!-- Modal -->

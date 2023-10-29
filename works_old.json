@@ -4,8 +4,9 @@
        "old_Category": "Wordpress",
        "old_image": "img/orientfreight.jpg",
        "old_title": "Orient Freight",
-       "old_description": "ORIENT FREIGHT BALIKBAYAN BOX SEA CARGO is a dependable company ",
-       "old_project_involve": "<ul><li>Create Mockup webdesign</li> <li>Web Development</li>  <li>Frontend integration</li> </ul>",
+       "old_subheading": "Orient Freight Website Wordpress Dev",
+       "old_description": "Oreint Freight Balikbayan Box Sea Cargo",
+       "old_project_involve": "<ul><li>Web design</li> <li>Web Development</li>  <li>Frontend integration</li> </ul>",
        "old_project_url":"https://orientfreight.com.au/"
     },
     {
@@ -13,8 +14,9 @@
       "old_Category": "wordpress",
       "old_image": "img/BAA.jpg",
       "old_title": "Brand Activation Agency",
-      "old_description": "INVENTING THE FUTURE OF DESIGN",
-      "old_project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li></ul>",
+      "old_subheading": "Brand Activation Agency Website",
+      "old_description": "BAA focuses in web design and branding",
+      "old_project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
       "old_project_url":"#"
    },
    {
@@ -22,8 +24,19 @@
       "old_Category": "wordpress",
       "old_image": "img/Fidarzi.jpg",
       "old_title": "Fidarzi",
+      "old_subheading": "Fidarzi Website",
       "old_description": "Making blockchain more consumable",
       "old_project_involve": "<ul> <li>Design Implementation</li> <li>Web Development</li>  <li>Frontend integration</li> </ul>",
       "old_project_url":"#"
+   },
+   {
+      "id": "old3",
+      "old_Category": "wordpress",
+      "old_image": "img/Beep.jpg",
+      "old_title": "Beep",
+      "old_subheading": "Beep Website",
+      "old_description": "Beep website focuses on providing beep card for transportations",
+      "old_project_involve": "<ul> <li>Support and update website</li></ul>",
+      "old_project_url":"beep.com.ph"
    }
 ]
