@@ -22,7 +22,7 @@ const displayData = async () => {
                   <span class="category"> ${Category}</span>
                 </figure>
                 <div class="work-title">
-                  <div class="subheading text-gold"> ${title} </div>
+                  <div class="subheading text-primary"> ${title} </div>
                 </div>
                 <small>${subheading}</small>
             </div>
@@ -95,7 +95,7 @@ const displayOldData = async () => {
                   <span class="category"> ${old_Category}</span>
                 </figure>
                 <div class="work-title">
-                  <div class="subheading text-gold"> ${old_title} </div>
+                  <div class="subheading text-primary"> ${old_title} </div>
                 </div>
                 <small>${old_subheading}</small>
             </div>

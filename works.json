@@ -1,6 +1,36 @@
 [
    {
-      "id": 1,
+      "id": 8,
+      "Category": "wordpress",
+      "image": "img/meteor.jpg",
+      "title": "Meteor",
+      "subheading": "Meteor Website - Wordpress Dev",
+      "description": "Travel Tours package provider",
+      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
+      "project_url":"https://meteorworld.com.ph/"
+   },
+   {
+      "id": 7,
+      "Category": "wordpress",
+      "image": "img/Naitas.jpg",
+      "title": "Naitas",
+      "subheading": "Naitas Website - Wordpress Dev",
+      "description": "To unite and empower travel and tour agencies across the Philippines, fostering a collaborative community dedicated to the advancement and support of Philippine Tourism.",
+      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
+      "project_url":"https://naitas.ph/"
+   },
+   {
+      "id": 6,
+      "Category": "wordpress",
+      "image": "img/Healerstouch.png",
+      "title": "Healerstouch",
+      "subheading": "Healerstouch Website - Wordpress Dev",
+      "description": "Provide massages and therapies, Home service",
+      "project_involve": "<ul> <li>Web Development</li> <li>Web Design</li></ul>",
+      "project_url":"https://healerstouch.ph/"
+   },
+   {
+      "id": 5,
       "Category": "wordpress",
       "image": "img/BlendedVentures.jpg",
       "title": "Blended Ventures",
@@ -10,7 +40,7 @@
       "project_url":"https://blendedventures.com.au/"
    },
    {
-      "id": 2,
+      "id": 4,
       "Category": "wordpress",
       "image": "img/ITPI.jpg",
       "title": "ITPI",
@@ -30,7 +60,7 @@
       "project_url":"#"
    },
    {
-      "id": 4,
+      "id": 2,
       "Category": "wordpress",
       "image": "img/HTC.jpg",
       "title": "Happy Traveller Club",
@@ -38,5 +68,15 @@
       "description": "Happy Traveller Club website focuses on posting travel destination",
       "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Frontend integration</li> </ul>",
       "project_url":"#"
+   },
+   {
+      "id": 1,
+      "Category": "wordpress",
+      "image": "img/SpaceMD.jpg",
+      "title": "SpaceMD",
+      "subheading": "SpaceMD Website - Wordpress Dev",
+      "description": "A collaborative hub for individuals and businesses",
+      "project_involve": "<ul><li>Web Design</li> <li>Web Development</li>  </ul>",
+      "project_url":"https://spacemd.ph/"
    }
 ]
