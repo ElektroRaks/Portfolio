@@ -1,5 +1,55 @@
 [
    {
+      "id": 13,
+      "Category": "Wordpress",
+      "image": "img/truckandequipmentinsurance.com.au.jpg",
+      "title": "Truck & Equiptment Insurance",
+      "subheading": "Truck & Equiptment Insurance - Wordpress ",
+      "description": "Truck & Equiptment Insurance Website - Collaborate with Fourth Wave Agency: Australia",
+      "project_involve": "<ul> <li>Web Development</li> <li>Web Design</li> <li>Collaborate with team</li> </ul>",
+      "project_url":"https://truckandequipmentinsurance.com.au/"
+   },
+   {
+      "id": 12,
+      "Category": "Wordpress",
+      "image": "img/bnbonthegc.com.jpg",
+      "title": "BNB on The GC",
+      "subheading": "BNB on The GC - Wordpress ",
+      "description": "Real State Website - Collaborate with Fourth Wave Agency: Australia",
+      "project_involve": "<ul> <li>Web Development</li> <li>Web Design</li> <li>Generated content using AI</li> <li>GoHighLevel software Integration</li>  <li>Google ads, analytics account setup</li> <li>SEO</li> <li>Setup Domain, Hosting and transfer</li> </ul>",
+      "project_url":"https://bnbonthegc.com/"
+   },
+   {
+      "id": 11,
+      "Category": "Wordpress",
+      "image": "img/thephyx.com.jpg",
+      "title": "The Phyx",
+      "subheading": "The Phyx - Wordpress ",
+      "description": "Physical therapist Portfolio Website - Collaborate with Fourth Wave Agency: Australia",
+      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> <li>Google ads, analytics account setup</li> <li>SEO</li> <li>Setup Domain, Hosting and transfer</li> </ul>",
+      "project_url":"https://thephyx.com/"
+   },
+   {
+      "id": 10,
+      "Category": "Wordpress",
+      "image": "img/lisapaskel.jpg",
+      "title": "Lisa Paskel",
+      "subheading": "Lisa Paskel - Wordpress Dev ",
+      "description": "Portfolio Website - Collaborate with Brand Activation Agency: Australia",
+      "project_involve": "<ul> <li>Web Development</li> <li>Design Implementation</li> </ul>",
+      "project_url":"https://lisapaskel.com/"
+   },
+   {
+      "id": 9,
+      "Category": "Figma",
+      "image": "img/philtoa.jpg",
+      "title": "Philtoa",
+      "subheading": "Philtoa - Create Web Design Using Figma",
+      "description": "The Philippine Tour Operators Association",
+      "project_involve": "<ul> <li>Web Design Using Figma</li> </ul>",
+      "project_url":"https://philtoa.com/"
+   },
+   {
       "id": 8,
       "Category": "wordpress",
       "image": "img/meteor.jpg",
