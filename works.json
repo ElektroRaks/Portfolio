@@ -130,13 +130,13 @@
       "project_url":"https://spacemd.ph/"
    },
    {
-      "id": "n2",
-      "old_Category": "Shopify",
-      "old_image": "img/ciprianosansrival.jpg",
-      "old_title": "Cipriano Sans Rival",
-      "old_subheading": "Cipriano Sans Rival Shopify Dev",
-      "old_description": "Cake Store online ",
-      "old_project_involve": "<ul><li>Web design</li> <li>Web Development</li> </ul>",
-      "old_project_url":"https://www.ciprianosansrival.com/"
+      "id": 0,
+      "Category": "Shopify",
+      "image": "img/ciprianosansrival.jpg",
+      "title": "Cipriano Sans Rival",
+      "subheading": "Cipriano Sans Rival Shopify Dev",
+      "description": "Cake Store online ",
+      "project_involve": "<ul><li>Web design</li> <li>Web Development</li> </ul>",
+      "project_url":"https://www.ciprianosansrival.com/"
    }
 ]
