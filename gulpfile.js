@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var browserSync = require('browser-sync').create();
 var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
@@ -17,7 +17,7 @@ var banner = ['/*!\n',
 ].join('');
 
 // Compiles SCSS files from /scss into /css
-gulp.task('sass', function() {
+function compileSass() {
   return gulp.src('scss/resume.scss')
     .pipe(sass())
     .pipe(header(banner, {
@@ -27,10 +27,10 @@ gulp.task('sass', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
+}
 
 // Minify compiled CSS
-gulp.task('minify-css', ['sass'], function() {
+function minifyCss() {
   return gulp.src('css/resume.css')
     .pipe(cleanCSS({
       compatibility: 'ie8'
@@ -42,10 +42,10 @@ gulp.task('minify-css', ['sass'], function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
+}
 
 // Minify custom JS
-gulp.task('minify-js', function() {
+function minifyJs() {
   return gulp.src('js/resume.js')
     .pipe(uglify())
     .pipe(header(banner, {
@@ -58,11 +58,11 @@ gulp.task('minify-js', function() {
     .pipe(browserSync.reload({
       stream: true
     }))
-});
+}
 
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
-gulp.task('copy', function() {
+function copy() {
   gulp.src([
       'node_modules/bootstrap/dist/**/*',
       '!**/npm.js',
@@ -98,28 +98,39 @@ gulp.task('copy', function() {
     ])
     .pipe(gulp.dest('vendor/devicons'))
 
-  gulp.src(['node_modules/simple-line-icons/**/*', '!node_modules/simple-line-icons/*.json', '!node_modules/simple-line-icons/*.md'])
+  return gulp.src(['node_modules/simple-line-icons/**/*', '!node_modules/simple-line-icons/*.json', '!node_modules/simple-line-icons/*.md'])
     .pipe(gulp.dest('vendor/simple-line-icons'))
-})
+}
 
-// Default task
-gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
+// Define complex tasks
+const build = gulp.series(copy, compileSass, minifyCss, minifyJs);
+const watch = gulp.parallel(watchFiles, browserSync);
+
+// Watch files
+function watchFiles() {
+  gulp.watch('scss/*.scss', compileSass);
+  gulp.watch('css/*.css', minifyCss);
+  gulp.watch('js/*.js', minifyJs);
+  // Reloads the browser whenever HTML or JS files change
+  gulp.watch('*.html', browserSync.reload);
+  gulp.watch('js/**/*.js', browserSync.reload);
+}
 
 // Configure the browserSync task
-gulp.task('browserSync', function() {
+function browserSync(done) {
   browserSync.init({
     server: {
       baseDir: ''
     },
-  })
-})
+  });
+  done();
+}
 
-// Dev task with browserSync
-gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
-  gulp.watch('scss/*.scss', ['sass']);
-  gulp.watch('css/*.css', ['minify-css']);
-  gulp.watch('js/*.js', ['minify-js']);
-  // Reloads the browser whenever HTML or JS files change
-  gulp.watch('*.html', browserSync.reload);
-  gulp.watch('js/**/*.js', browserSync.reload);
-});
+// Export tasks
+exports.sass = compileSass;
+exports.minify-css = minifyCss;
+exports.minify-js = minifyJs;
+exports.copy = copy;
+exports.build = build;
+exports.watch = watch;
+exports.default = build;

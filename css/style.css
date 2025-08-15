@@ -55,6 +55,13 @@ span.category {
 
 }
 
+.project {
+    background-color: #151922;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
 .project figure figcaption {
     position: relative;
     z-index: 10;
@@ -65,7 +72,7 @@ span.category {
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
     text-align: left;
-    color: #555;
+    color: #f8f9fa;
 }
 
 .project figure:hover .actions {
@@ -254,3 +261,22 @@ a[aria-expanded=true] .view-more {
   .hide{
       display: none !important;
   }
+
+.modal-content {
+    background-color: #151922;
+    color: #f8f9fa;
+}
+
+.modal-header {
+    border-bottom: 1px solid #343a40;
+}
+
+.close {
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #fff;
+}
