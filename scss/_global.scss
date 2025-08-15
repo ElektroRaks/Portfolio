@@ -3,7 +3,8 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  background-color: $dark-bg;
+  color: $light-text;
 }
 @media (min-width: 992px) {
   body {
@@ -21,7 +22,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $light-text;
 }
 
 h1 {
@@ -38,11 +39,12 @@ h2 {
   font-weight: 500;
   @include heading-font;
   font-size: 1.35rem;
+  color: $gray-500;
 }
 
 .list-social-icons {
   a {
-    color: $gray-700;
+    color: $gray-500;
     &:hover {
       color: $primary;
     }
@@ -55,8 +57,18 @@ h2 {
 .list-icons {
   font-size: 3rem;
   .list-inline-item i {
+    color: $gray-500;
     &:hover {
       color: $primary;
     }
+  }
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 10%);
   }
 }

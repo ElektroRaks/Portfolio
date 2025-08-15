@@ -14,6 +14,13 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+// New Dark Theme Colors
+$dark-bg: #020202;
+$sidebar-bg: #151922;
+$light-text: #f8f9fa;
+$primary-accent: #00aaff;
+
+
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -25,14 +32,14 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$primary:       $orange !default;
+$primary:       $primary-accent !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $light-text !default;
+$dark:          $dark-bg !default;
 
 // Page Variables
 
